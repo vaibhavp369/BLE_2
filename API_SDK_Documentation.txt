@@ -1,0 +1,65 @@
+Documentation Overview	: https://software-dl.ti.com/simplelink/esd/simplelink_lowpower_f3_sdk/latest/exports/docs/Documentation_Overview.html
+
+==========================================================================================================================================================================
+
+
+BLE User Guide:
+ This is entire 	: https://dev.ti.com/tirex/explore/node?node=A__AORV2P9xKyaQCr.Dunw8Rg__com.ti.SIMPLELINK_LOWPOWER_F3_SDK__58mgN04__LATEST
+ Specific to BLE STACK 	: https://dev.ti.com/tirex/explore/node?node=A__AORV2P9xKyaQCr.Dunw8Rg__com.ti.SIMPLELINK_LOWPOWER_F3_SDK__58mgN04__LATEST
+
+==========================================================================================================================================================================
+
+SDK
+User Guide 		: https://software-dl.ti.com/simplelink/esd/simplelink_lowpower_f3_sdk/latest/exports/docs/simplelink_mcu_sdk/Users_Guide.html
+SDK API Reference 	: https://dev.ti.com/tirex/explore/content/simplelink_lowpower_f3_sdk_8_40_02_01/docs/drivers/doxygen/html/index.html
+
+==========================================================================================================================================================================
+
+TI_DRIVER API Reference
+
+SDK Driver API Reference : https://dev.ti.com/tirex/explore/content/simplelink_lowpower_f3_sdk_8_40_02_01/docs/drivers/doxygen/html/index.html
+Drivers Reference Table	 : https://dev.ti.com/tirex/explore/node?node=A__AORV2P9xKyaQCr.Dunw8Rg__com.ti.SIMPLELINK_LOWPOWER_F3_SDK__58mgN04__LATEST
+includes		 : https://dev.ti.com/tirex/explore/content/simplelink_lowpower_f3_sdk_8_40_02_01/docs/ble5stack/ble_user_guide/doxygen/ble/html/dir_92983a62f4a5469ff67745026bd62453.html
+			 : https://dev.ti.com/tirex/explore/content/simplelink_lowpower_f3_sdk_8_40_02_01/docs/ble5stack/ble_user_guide/doxygen/ble/html/modules.html
+==========================================================================================================================================================================
+
+BLE Stack API Reference:
+https://software-dl.ti.com/simplelink/esd/simplelink_lowpower_f3_sdk/7.20.00.29/exports/docs/ble5stack/ble_user_guide/doxygen/ble/html/index.html
+
+==========================================================================================================================================================================
+
+TRAINING
+https://dev.ti.com/tirex/explore/node?node=A__AEIJm0rwIeU.2P1OBWwlaA__SIMPLELINK-ACADEMY-CC23XX__gsUPh5j__LATEST
+
+==========================================================================================================================================================================
+
+RTOS
+https://www.freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/01-RTOS-fundamentals
+
+==========================================================================================================================================================================
+
+FreeRTOS POSIX : How to create a task | entry point
+https://dev.ti.com/tirex/explore/node?node=A__ATOcjUy6zyynCMWH-Ys6Ng__com.ti.SIMPLELINK_ACADEMY_CC13XX_CC26XX_SDK__AfkT0vQ__LATEST
+
+==========================================================================================================================================================================
+
+Tool_Chain_Doc:
+https://software-dl.ti.com/codegen/docs/tiarmclang/compiler_tools_user_guide/index.html
+
+==========================================================================================================================================================================
+
+
+
+          SimpleGattProfile_setParameter(
+                            SIMPLEGATTPROFILE_CHAR4, RemainDataLen,
+                            &uartReadBuffer[SentDataLen + 3]);
+
+
+
+
+---continue SDK file structure
+https://software-dl.ti.com/simplelink/esd/simplelink_lowpower_f3_sdk/latest/exports/docs/simplelink_mcu_sdk/Users_Guide.html
+
+
+-- UART Dynamic PinChange
+https://software-dl.ti.com/simplelink/esd/simplelink_lowpower_f3_sdk/7.20.00.29/exports/docs/ble5stack/ble_user_guide/html/cc23xx/uart2_dynamic_pin_switching.html

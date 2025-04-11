@@ -1,0 +1,2 @@
+Controlling GPIO based on the characteristic value:
+https://dev.ti.com/tirex/explore/node?node=A__AcrwHdZt.SBRoZj0q1LDWQ__SIMPLELINK-ACADEMY-CC23XX__gsUPh5j__LATEST

@@ -1,0 +1,86 @@
+Manual Advertise initialization
+
+uint8_t advData2[] =
+{
+  0x02,
+  GAP_ADTYPE_FLAGS,
+  GAP_ADTYPE_FLAGS_BREDR_NOT_SUPPORTED | GAP_ADTYPE_FLAGS_GENERAL,
+
+  0x03,
+   GAP_ADTYPE_MANUFACTURER_SPECIFIC,
+   //Company Identifier
+   0xe8,
+   0x09,
+
+  0x11,
+  GAP_ADTYPE_128BIT_MORE,
+  0xa8,
+  0x9c,
+  0xa5,
+  0x18,
+  0x69,
+  0x8e,
+  0x47,
+  0x95,
+  0x93,
+  0x44,
+  0x49,
+  0x9c,
+  0xa2,
+  0xd9,
+  0x37,
+  0xe8,
+
+
+
+
+
+
+
+
+};
+
+====================================================================================================================================================================================
+
+How to advertise ADC data
+
+Just insert it to byte index where there is no data.
+
+void advdata()
+{
+    BLEAppUtil_advStop(peripheralAdvHandle_1);
+    
+    memset(scanResData1, '\0', sizeof(scanResData1));
+
+    scanResData1[0] = RamFlashData.device_name[0] + 1;
+    scanResData1[1] = GAP_ADTYPE_LOCAL_NAME_COMPLETE;
+    for (uint8_t i = 1; i <= RamFlashData.device_name[0]; i++)
+    {
+      scanResData1[i + 1] = RamFlashData.device_name[i];
+    }
+    scanResData1[1] = 
+    
+    BLEAppUtil_advStart(peripheralAdvHandle_1, &advSetStartParamsSet_1);
+}
+
+
+====================================================================================================================================================================================
+# How to disable main menu.
+
+Properties -> Arm Compiler -> Predefined Symbols
+
+Add below flag to disable main menu.
+
+------>>>Display_DISABLE_ALL
+
+------>>> Comment out the "Menu_start()" from app_main.c file
+
+Explanation:
+This will disable menu and we need add uart2print to debug or echo back
+
+====================================================================================================================================================================================
+
+
+
+
+
